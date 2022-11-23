@@ -1,0 +1,163 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.573938953949699 -0.586113856460443 -0.5718956411830682 2.0903578702520926
+  position -0.27989806159498326 12.540279088575593 0.32996148338008985
+}
+TexturedBackground {
+  luminosity 3
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  translation -0.13 -0.18 0
+  floorSize 8 8
+  floorTileSize 16 16
+}
+SolidBox {
+  translation 1.45 0 0
+  rotation 1 0 0 4.692820414042842e-06
+  size 0.1 1.5 3
+  contactMaterial "none"
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    roughness 0.5
+    metalness 0
+  }
+  castShadows FALSE
+}
+SolidBox {
+  translation -0.1 0 -1.45
+  name "box(6)"
+  size 3 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.55 0 0.100003
+  rotation 0 1 0 -1.5708003061004252
+  name "box(7)"
+  size 3 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0 0 1.54
+  rotation 0 1 0 3.141592653589793
+  name "box(8)"
+  size 3 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+DEF target Obstacle {
+  translation -1.1960608779820876 0.025 0.7668394129129809
+  color 1 0 0
+}
+Nao {
+  hidden position_0_0 1.5174493606107102e-15
+  hidden position2_0_0 -6.583371743981164e-09
+  hidden position_0_1 5.462425149149741e-07
+  hidden position2_0_1 8.758048431443961e-12
+  hidden position_0_2 5.462425628766088e-07
+  hidden position2_0_2 -8.488552634237929e-12
+  hidden position_0_3 -6.533936511843308e-07
+  hidden position_0_4 -6.540608028515749e-07
+  hidden rotation_18 4.3790242151591325e-12 0.9999999998714674 1.6033260303221344e-05 5.46285592908365e-07
+  hidden position_18_0 2.7506221452578635e-07
+  hidden rotation_19 1 0 0 2.7476383618393225e-07
+  hidden position_19_0 -3.0274276825906387e-07
+  hidden rotation_20 0 0 -1 3.024605383006403e-07
+  hidden position_20_0 -1.0610004665836423e-07
+  hidden rotation_21 -0.9999999999999999 0 0 1.0745380149674385e-07
+  hidden position_21_0 -2.213251804050742e-11
+  hidden position_21_1 -2.213162986208772e-11
+  hidden position_21_2 7.576947289051894e-11
+  hidden position_22_0 4.0867531583620583e-11
+  hidden rotation_23 0 1 0 0.9599999999591325
+  hidden position_23_0 1.8733792306166035e-11
+  hidden position_25_0 4.0865755240241124e-11
+  hidden rotation_26 0 1 0 0.9599999999591345
+  hidden position_26_0 1.8736567854181924e-11
+  hidden position_28_0 1.1131651165757745e-11
+  hidden rotation_30 -4.244276316606493e-12 0.9999999998792558 -1.553989602807693e-05 5.46285592908365e-07
+  hidden position_30_0 -2.7506387120721384e-07
+  hidden rotation_31 -1 0 0 2.7476383618393225e-07
+  hidden position_31_0 -3.0274604389905583e-07
+  hidden rotation_32 0 0 -0.9999999999999999 3.024605383006403e-07
+  hidden position_32_0 1.0609997054766975e-07
+  hidden rotation_33 1 0 0 1.0745380149674385e-07
+  hidden position_33_0 -2.213518257576652e-11
+  hidden position_33_1 -2.2142288003124122e-11
+  hidden position_33_2 7.577362842106467e-11
+  hidden position_34_0 4.087075124848681e-11
+  hidden rotation_35 0 1 0 0.9599999999591292
+  hidden position_35_0 1.8732349011998964e-11
+  hidden position_37_0 4.0860648206034245e-11
+  hidden rotation_38 0 1 0 0.9599999999591393
+  hidden position_38_0 1.873468047401734e-11
+  hidden position_40_0 1.112387964874184e-11
+  hidden rotation_42 0 -0.7071067811865476 -0.7071067811865476 6.53615957482499e-07
+  hidden position_42_0 -8.45591852226966e-07
+  hidden rotation_43 -0.9999999999999999 0 0 8.455670451588161e-07
+  hidden position_43_0 -4.945786731269664e-07
+  hidden rotation_44 0 -1 0 4.942156062059712e-07
+  hidden position_44_0 -5.006958874176348e-07
+  hidden rotation_45 0 -1 0 5.004660971089217e-07
+  hidden position_45_0 -5.150754445182315e-07
+  hidden rotation_46 0 -1 0 5.153303285178731e-07
+  hidden position_46_0 -8.42248570442905e-07
+  hidden rotation_47 -1 0 0 8.424099698723957e-07
+  hidden translation_48 0.019999986992211706 -0.006999975886846907 -0.04095958721455728
+  hidden rotation_48 -2.6996816356883136e-08 -1.154126794141743e-10 0.9999999999999998 -3.1415853077980693
+  hidden rotation_52 0 -0.7071067811865476 0.7071067811865476 6.542950391799285e-07
+  hidden position_52_0 8.464658038331446e-07
+  hidden rotation_53 1 0 0 8.466167873943983e-07
+  hidden position_53_0 -4.952836150096118e-07
+  hidden rotation_54 0 -1 0 4.951133646320162e-07
+  hidden position_54_0 -5.011178334513033e-07
+  hidden rotation_55 0 -1 0 5.013526630777349e-07
+  hidden position_55_0 -5.152059694424338e-07
+  hidden rotation_56 0 -1 0 5.153303285178731e-07
+  hidden position_56_0 8.424047205279473e-07
+  hidden rotation_57 1 0 0 8.424099698723957e-07
+  hidden translation_58 0.0199999915829475 0.006999975888189083 -0.04095958722126125
+  hidden rotation_58 -2.7007897394392304e-08 1.1544115663475646e-10 0.9999999999999998 -3.141585306299706
+  translation -0.021798821213828118 0.15264200158919017 4.833370086656605e-05
+  rotation -0.9999997811167353 0.0005768052070803658 0.00032413305053080604 1.5707966590792144
+  controller "my_controller"
+  supervisor TRUE
+}

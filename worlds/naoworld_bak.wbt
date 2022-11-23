@@ -1,0 +1,435 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.5767218089098876 -0.585182919505145 -0.570046406748733 2.0856976760181873
+  position 0.0037529562863766602 8.715246419685805 0.539840293310227
+}
+TexturedBackground {
+  luminosity 3
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  translation -0.13 -0.18 0
+  floorSize 8 8
+  floorTileSize 16 16
+}
+Nao {
+  hidden position_0_0 -6.45881452487897e-10
+  hidden position2_0_0 -2.498693647030976e-08
+  hidden position_0_1 5.103703422898502e-07
+  hidden position2_0_1 1.6712114777487477e-08
+  hidden position_0_2 4.339520744560704e-07
+  hidden position2_0_2 1.6337083693194995e-08
+  hidden position_0_3 6.587676833970904e-06
+  hidden position_0_4 -4.695591958287302e-06
+  hidden rotation_11 -3.2283289245713227e-10 -0.9996660879906031 -0.025840133930842793 2.9802322387695313e-08
+  hidden rotation_18 -4.46363806501209e-07 0.9999999999997697 -5.109938674783716e-07 1.3982758230405299
+  hidden position_18_0 -6.029222157997679e-07
+  hidden rotation_19 1 0 0 1.3869636465535784
+  hidden position_19_0 -1.6251523852100484e-07
+  hidden rotation_20 0 0 1 1.385301313417408
+  hidden position_20_0 -2.6765971391612783e-10
+  hidden rotation_21 1 0 0 5.16191365590357e-08
+  hidden position_21_0 1.551328029755549e-12
+  hidden position_21_1 1.5622672728258172e-12
+  hidden position_21_2 -6.458667040580585e-13
+  hidden position_22_0 2.487224937103024e-10
+  hidden rotation_23 0 1 0 0.9599999995025545
+  hidden position_23_0 -1.3032554152092633e-13
+  hidden position_25_0 4.512574915877166e-12
+  hidden position_26_0 -1.2712487139740786e-13
+  hidden position_28_0 1.170669651132712e-12
+  hidden rotation_30 0.16943333657608473 0.9685449146790577 0.182244595821199 1.5298781047952783
+  hidden position_30_0 -5.699726764950241e-07
+  hidden rotation_31 -1 0 0 1.3869630062036318
+  hidden position_31_0 8.535186969128345e-08
+  hidden rotation_32 0 0 -0.9999999999999999 1.3852984624991038
+  hidden position_32_0 -2.1462190955694422e-07
+  hidden rotation_33 -1 0 0 2.665600749850024e-07
+  hidden position_33_0 1.7801412246235273e-11
+  hidden position_33_1 1.7793834495265888e-11
+  hidden position_33_2 2.5562342065936643e-11
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999999643973
+  hidden position_34_0 2.2741697644214395e-11
+  hidden rotation_35 0 1 0 0.9599999999545169
+  hidden position_35_0 6.497565920489507e-12
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999999644128
+  hidden position_37_0 2.2743658391389188e-11
+  hidden rotation_38 0 1 0 0.9599999999545131
+  hidden position_38_0 6.494696207782075e-12
+  hidden position_40_0 5.881696762947783e-12
+  hidden rotation_42 0 0.7071067811865476 0.7071067811865476 1.0885071315573848e-05
+  hidden position_42_0 0.028051079541389634
+  hidden rotation_43 1 0 0 0.12941168560791688
+  hidden position_43_0 -0.5249922403236809
+  hidden rotation_44 0 -1 0 0.5249922403236812
+  hidden position_44_0 1.0499888417380534
+  hidden rotation_45 0 1 0 1.0499888417380534
+  hidden position_45_0 -0.5249954906681293
+  hidden rotation_46 0 -1 0 0.5249954906681296
+  hidden position_46_0 -0.028055295283454795
+  hidden rotation_47 -1 0 0 0.028055295283451447
+  hidden translation_48 0.01999717454428354 -0.007022588794593509 -0.040979771593612435
+  hidden rotation_48 1.0142998049870424e-07 6.200993039233327e-07 0.9999999999998026 -3.1415852130530384
+  hidden rotation_52 0 -0.7071067811865476 0.7071067811865476 1.1589195504822975e-05
+  hidden position_52_0 0.02705772310699195
+  hidden rotation_53 1 0 0 0.1284246055855422
+  hidden position_53_0 -0.5249936865382102
+  hidden rotation_54 0 -1 0 0.5249936865382105
+  hidden position_54_0 1.049989275438605
+  hidden rotation_55 0 1 0 1.049989275438605
+  hidden position_55_0 -0.5249962777501864
+  hidden rotation_56 0 -1 0 0.5249962777501863
+  hidden position_56_0 -0.027056889657447458
+  hidden rotation_57 -1 0 0 0.027056889657447698
+  hidden translation_58 0.019999708137370106 0.007032732686216861 -0.040865210946769925
+  hidden rotation_58 1.539166904772846e-07 3.02092825449968e-06 0.9999999999954252 -3.141585368319784
+  translation 0.346778 0.0823104 1.78944
+  rotation -0.30132400958918476 0.6721560213903576 0.6763210215229024 2.50389
+  name "3"
+  controller "my_controller"
+  supervisor TRUE
+}
+Nao {
+  hidden position_0_0 -6.45881452487897e-10
+  hidden position2_0_0 -2.498693647030976e-08
+  hidden position_0_1 5.103703422898502e-07
+  hidden position2_0_1 1.6712114777487477e-08
+  hidden position_0_2 4.339520744560704e-07
+  hidden position2_0_2 1.6337083693194995e-08
+  hidden position_0_3 6.587676833970904e-06
+  hidden position_0_4 -4.695591958287302e-06
+  hidden rotation_11 -3.2283289245713227e-10 -0.9996660879906031 -0.025840133930842793 2.9802322387695313e-08
+  hidden rotation_18 -4.46363806501209e-07 0.9999999999997697 -5.109938674783716e-07 1.3982758230405299
+  hidden position_18_0 -6.029222157997679e-07
+  hidden rotation_19 1 0 0 1.3869636465535784
+  hidden position_19_0 -1.6251523852100484e-07
+  hidden rotation_20 0 0 1 1.385301313417408
+  hidden position_20_0 -2.6765971391612783e-10
+  hidden rotation_21 1 0 0 5.16191365590357e-08
+  hidden position_21_0 1.551328029755549e-12
+  hidden position_21_1 1.5622672728258172e-12
+  hidden position_21_2 -6.458667040580585e-13
+  hidden position_22_0 2.487224937103024e-10
+  hidden rotation_23 0 1 0 0.9599999995025545
+  hidden position_23_0 -1.3032554152092633e-13
+  hidden position_25_0 4.512574915877166e-12
+  hidden position_26_0 -1.2712487139740786e-13
+  hidden position_28_0 1.170669651132712e-12
+  hidden rotation_30 0.16943333657608473 0.9685449146790577 0.182244595821199 1.5298781047952783
+  hidden position_30_0 -5.699726764950241e-07
+  hidden rotation_31 -1 0 0 1.3869630062036318
+  hidden position_31_0 8.535186969128345e-08
+  hidden rotation_32 0 0 -0.9999999999999999 1.3852984624991038
+  hidden position_32_0 -2.1462190955694422e-07
+  hidden rotation_33 -1 0 0 2.665600749850024e-07
+  hidden position_33_0 1.7801412246235273e-11
+  hidden position_33_1 1.7793834495265888e-11
+  hidden position_33_2 2.5562342065936643e-11
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999999643973
+  hidden position_34_0 2.2741697644214395e-11
+  hidden rotation_35 0 1 0 0.9599999999545169
+  hidden position_35_0 6.497565920489507e-12
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999999644128
+  hidden position_37_0 2.2743658391389188e-11
+  hidden rotation_38 0 1 0 0.9599999999545131
+  hidden position_38_0 6.494696207782075e-12
+  hidden position_40_0 5.881696762947783e-12
+  hidden rotation_42 0 0.7071067811865476 0.7071067811865476 1.0885071315573848e-05
+  hidden position_42_0 0.028051079541389634
+  hidden rotation_43 1 0 0 0.12941168560791688
+  hidden position_43_0 -0.5249922403236809
+  hidden rotation_44 0 -1 0 0.5249922403236812
+  hidden position_44_0 1.0499888417380534
+  hidden rotation_45 0 1 0 1.0499888417380534
+  hidden position_45_0 -0.5249954906681293
+  hidden rotation_46 0 -1 0 0.5249954906681296
+  hidden position_46_0 -0.028055295283454795
+  hidden rotation_47 -1 0 0 0.028055295283451447
+  hidden translation_48 0.01999717454428354 -0.007022588794593509 -0.040979771593612435
+  hidden rotation_48 1.0142998049870424e-07 6.200993039233327e-07 0.9999999999998026 -3.1415852130530384
+  hidden rotation_52 0 -0.7071067811865476 0.7071067811865476 1.1589195504822975e-05
+  hidden position_52_0 0.02705772310699195
+  hidden rotation_53 1 0 0 0.1284246055855422
+  hidden position_53_0 -0.5249936865382102
+  hidden rotation_54 0 -1 0 0.5249936865382105
+  hidden position_54_0 1.049989275438605
+  hidden rotation_55 0 1 0 1.049989275438605
+  hidden position_55_0 -0.5249962777501864
+  hidden rotation_56 0 -1 0 0.5249962777501863
+  hidden position_56_0 -0.027056889657447458
+  hidden rotation_57 -1 0 0 0.027056889657447698
+  hidden translation_58 0.019999708137370106 0.007032732686216861 -0.040865210946769925
+  hidden rotation_58 1.539166904772846e-07 3.02092825449968e-06 0.9999999999954252 -3.141585368319784
+  translation -0.436314 0.184464 -1.77714
+  rotation 0.8327050747227933 0.3732970334978108 0.4089640366983895 -1.7467853071795858
+  name "2"
+  controller "my_controller"
+  supervisor TRUE
+}
+DEF target3 Obstacle {
+  translation 0.33354 -0.14 1.06136
+  color 1 0 0
+  name "obstacle3"
+}
+DEF target2 Obstacle {
+  translation 0.35 0.025 -1.77
+  color 1 0 0
+  name "obstacle2"
+}
+SolidBox {
+  translation -0.02 0 -2.1
+  rotation 0 1 0 3.141592653589793
+  name "box(9)"
+  size 1.5 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.02 0 2.1
+  rotation 0 1 0 3.141592653589793
+  name "box(5)"
+  size 1.5 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.7 0 1.45
+  rotation 0 1 0 -1.5708003061004252
+  name "box(4)"
+  size 1.4 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.68 -6.80479e-06 1.45
+  rotation 1 0 0 4.692820414042842e-06
+  name "box(2)"
+  size 0.1 1.5 1.4
+  contactMaterial "none"
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    roughness 0.5
+    metalness 0
+  }
+  castShadows FALSE
+}
+SolidBox {
+  translation 0.68 6.80474e-06 -1.45
+  rotation 1 0 0 4.692820414042842e-06
+  name "box(1)"
+  size 0.1 1.5 1.4
+  contactMaterial "none"
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    roughness 0.5
+    metalness 0
+  }
+  castShadows FALSE
+}
+Nao {
+  hidden position_0_0 -6.45881452487897e-10
+  hidden position2_0_0 -2.498693647030976e-08
+  hidden position_0_1 5.103703422898502e-07
+  hidden position2_0_1 1.6712114777487477e-08
+  hidden position_0_2 4.339520744560704e-07
+  hidden position2_0_2 1.6337083693194995e-08
+  hidden position_0_3 6.587676833970904e-06
+  hidden position_0_4 -4.695591958287302e-06
+  hidden rotation_11 -3.2283289245713227e-10 -0.9996660879906031 -0.025840133930842793 2.9802322387695313e-08
+  hidden rotation_18 -4.463638065012091e-07 0.9999999999997699 -5.109938674783718e-07 1.3982758230405297
+  hidden position_18_0 -6.029222157997679e-07
+  hidden rotation_19 1 0 0 1.3869636465535784
+  hidden position_19_0 -1.6251523852100484e-07
+  hidden rotation_20 0 0 1 1.385301313417408
+  hidden position_20_0 -2.6765971391612783e-10
+  hidden rotation_21 1 0 0 5.16191365590357e-08
+  hidden position_21_0 1.551328029755549e-12
+  hidden position_21_1 1.5622672728258172e-12
+  hidden position_21_2 -6.458667040580585e-13
+  hidden position_22_0 2.487224937103024e-10
+  hidden rotation_23 0 1 0 0.9599999995025545
+  hidden position_23_0 -1.3032554152092633e-13
+  hidden position_25_0 4.512574915877166e-12
+  hidden position_26_0 -1.2712487139740786e-13
+  hidden position_28_0 1.170669651132712e-12
+  hidden rotation_30 0.16943333657608475 0.9685449146790577 0.182244595821199 1.5298781047952783
+  hidden position_30_0 -5.699726764950241e-07
+  hidden rotation_31 -1 0 0 1.3869630062036318
+  hidden position_31_0 8.535186969128345e-08
+  hidden rotation_32 0 0 -1 1.385298462499104
+  hidden position_32_0 -2.1462190955694422e-07
+  hidden rotation_33 -1 0 0 2.665600749850024e-07
+  hidden position_33_0 1.7801412246235273e-11
+  hidden position_33_1 1.7793834495265888e-11
+  hidden position_33_2 2.5562342065936643e-11
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999999643973
+  hidden position_34_0 2.2741697644214395e-11
+  hidden rotation_35 0 1 0 0.9599999999545169
+  hidden position_35_0 6.497565920489507e-12
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999999644128
+  hidden position_37_0 2.2743658391389188e-11
+  hidden rotation_38 0 1 0 0.9599999999545131
+  hidden position_38_0 6.494696207782075e-12
+  hidden position_40_0 5.881696762947783e-12
+  hidden rotation_42 0 0.7071067811865476 0.7071067811865476 1.0885071315573848e-05
+  hidden position_42_0 0.028051079541389634
+  hidden rotation_43 1 0 0 0.1294116856079203
+  hidden position_43_0 -0.5249922403236809
+  hidden rotation_44 0 -1 0 0.5249922403236812
+  hidden position_44_0 1.0499888417380534
+  hidden rotation_45 0 1 0 1.0499888417380534
+  hidden position_45_0 -0.5249954906681293
+  hidden rotation_46 0 -1 0 0.5249954906681296
+  hidden position_46_0 -0.028055295283454795
+  hidden rotation_47 -1 0 0 0.028055295283451447
+  hidden translation_48 0.01999717454428354 -0.007022588794593509 -0.040979771593612435
+  hidden rotation_48 1.0142998049870424e-07 6.200993039233327e-07 0.9999999999998026 -3.1415852130530384
+  hidden rotation_52 0 -0.7071067811865476 0.7071067811865476 1.1589195504822975e-05
+  hidden position_52_0 0.02705772310699195
+  hidden rotation_53 1 0 0 0.1284246055855422
+  hidden position_53_0 -0.5249936865382102
+  hidden rotation_54 0 -1 0 0.5249936865382105
+  hidden position_54_0 1.049989275438605
+  hidden rotation_55 0 1 0 1.049989275438605
+  hidden position_55_0 -0.5249962777501864
+  hidden rotation_56 0 -1 0 0.5249962777501863
+  hidden position_56_0 -0.027056889657447458
+  hidden rotation_57 -1 0 0 0.027056889657447698
+  hidden translation_58 0.019999708137370106 0.007032732686216861 -0.040865210946769925
+  hidden rotation_58 1.539166904772846e-07 3.02092825449968e-06 0.9999999999954252 -3.141585368319784
+  translation -0.449244 0.131852 0.440893
+  rotation -0.8868020002478612 0.33781400009441903 0.31537900008814845 1.65753
+  name "1"
+  controller "my_controller"
+  supervisor TRUE
+}
+SolidBox {
+  translation 0.68 2.34637e-07 -0.05
+  rotation 1 0 0 4.692820414042842e-06
+  size 0.1 1.5 1.4
+  contactMaterial "none"
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    roughness 0.5
+    metalness 0
+  }
+  castShadows FALSE
+}
+SolidBox {
+  translation -0.06 0 -0.7
+  name "box(6)"
+  size 1.4 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.7 0 0.0500025
+  rotation 0 1 0 -1.5708003061004252
+  name "box(7)"
+  size 1.4 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.709999 0 -1.45
+  rotation 0 1 0 -1.5708003061004252
+  name "box(3)"
+  size 1.4 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.04 0 0.7
+  rotation 0 1 0 3.141592653589793
+  name "box(8)"
+  size 1.4 1.5 0.1
+  appearance PBRAppearance {
+    baseColor 0 0.666667 0
+    baseColorMap ImageTexture {
+      url [
+        ""
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+DEF target1 Obstacle {
+  translation 0.35 0.025 -0.37
+  color 1 0 0
+  name "obstacle1"
+}
