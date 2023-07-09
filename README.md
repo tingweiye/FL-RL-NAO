@@ -1,5 +1,6 @@
 # FL-RL-NAO
 
+we propose FedRos, a Federated Reinforcement Learning based multi-robot system, which enables networked robots collaboratively to train a shared model without sharing their private sensing data. 
 This is the webot environment for our Fedros federated and reinforcement learning framework. The main control code is under controllers/my_controller.
 
 ## Environment
